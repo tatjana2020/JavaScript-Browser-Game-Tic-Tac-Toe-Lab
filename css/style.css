@@ -1,0 +1,42 @@
+* {
+  /* display: flex;  */
+}
+h1,h2 {
+  text-align: center;
+  color: rgb(204, 6, 249);
+}
+body {
+  background-color: rgb(249, 245, 245);
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  justify-content: column;  
+  align-items: center; 
+  display: grid; 
+  place-items: center;
+}
+#reset {    
+    text-align: center;
+    font-weight: bold;
+    color: rgb(204, 6, 249);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    border: 3px solid rgb(204, 6, 249);
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+  align-items: center; 
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid rgb(204, 6, 249);
+  font-size: 64px;
+  text-align: center;
+}
+
